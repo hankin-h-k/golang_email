@@ -1,8 +1,8 @@
 package main
 
 import (
-	"email/model"
-	"email/service"
+	"github.com/hankin-h-k/golang_email/model"
+	"github.com/hankin-h-k/golang_email/service"
 )
 
 func main() {

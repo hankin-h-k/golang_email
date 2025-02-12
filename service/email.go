@@ -1,7 +1,7 @@
 package service
 
 import (
-	"email/model"
+	"github.com/hankin-h-k/golang_email/model"
 	"log"
 	"os"
 

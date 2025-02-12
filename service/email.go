@@ -1,9 +1,10 @@
 package service
 
 import (
-	"email/model"
 	"log"
 	"os"
+
+	"github.com/hankin-h-k/golang_email/model"
 
 	"gopkg.in/gomail.v2"
 )

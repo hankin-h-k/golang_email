@@ -1,4 +1,4 @@
-module email
+module github.com/hankin-h-k/email
 
 go 1.22.4
 

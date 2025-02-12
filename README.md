@@ -8,7 +8,7 @@
 #### 安装教程
 
 ```
-go get gitee.com/hankin_h/golang_email
+go get github.com/hankin-h-k/golang_email
 ```
 
 #### 使用说明

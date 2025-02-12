@@ -1,16 +1,15 @@
 package main
 
 import (
-	"github.com/hankin-h-k/golang_email/service"
-
 	"github.com/hankin-h-k/golang_email/model"
+	"github.com/hankin-h-k/golang_email/service"
 )
 
 func main() {
-	smtpHost := "smtp.126.com"     // SMTP 服务器地址（如 smtp.gmail.com）
-	smtpPort := 25                 // SMTP 端口（Gmail 为 587）
-	smtpUser := "hankin_h"         // SMTP 用户名（通常为邮箱地址）
-	smtpPass := "NXCFIJELIWJJQBYU" // SMTP 密码或应用专用密码
+	smtpHost := "smtp.126.com" // SMTP 服务器地址（如 smtp.gmail.com）
+	smtpPort := 25             // SMTP 端口（Gmail 为 587）
+	smtpUser := "hankin_h"     // SMTP 用户名（通常为邮箱地址）
+	smtpPass := ""             // SMTP 密码或应用专用密码
 	smtpFrom := "hankin_h@126.com"
 	d := service.NewClient(smtpHost, smtpPort, smtpUser, smtpPass, smtpFrom)
 
